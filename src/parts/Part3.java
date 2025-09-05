@@ -18,10 +18,11 @@ public class Part3 {
 		return true;
 	}
 	public static void main(String[] args) {
+		//3x3 2D array
 		int[][] a = {
-				{2,3,6},
-				{9,5,1},
-				{4,3,8}
+				{1,1,1},
+				{1,1,1},
+				{1,1,1}
 		};
 		System.out.println(a[0][0]+" "+a[0][1]+" "+a[0][2]);
 		System.out.println(a[1][0]+" "+a[1][1]+" "+a[1][2]);
